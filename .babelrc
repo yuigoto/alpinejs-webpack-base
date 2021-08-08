@@ -23,9 +23,7 @@
     [
       "@babel/plugin-transform-react-jsx",
       {
-        "runtime": "classic",
-        "pragma": "createElement",
-        "pragmaFrag": "'fragment'"
+        "runtime": "automatic"
       }
     ],
     "@babel/plugin-proposal-class-properties"
